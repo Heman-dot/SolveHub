@@ -1,0 +1,47 @@
+.help-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 10%;
+}
+
+.help-item {
+  flex: 1;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 150px;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.help-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.help-icon {
+  width: 88px;
+  height: 72px;
+  margin-bottom: 15px;
+}
+
+.help-title {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.help-link {
+  font-size: 14px;
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
